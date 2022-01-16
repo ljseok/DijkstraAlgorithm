@@ -1,7 +1,6 @@
 import sys
 input = sys.stdin.readline
 INF = int(1e9) # 무한을 설정한 값 --> 10억으로 설정
-
 n, m = map(int, input().split()) # n,m 입력 n = 노드의 갯수 , m = 간선의 갯수 입력
 start = int(input()) # 시작 노드를 입력
 
@@ -45,6 +44,7 @@ for i in range(1, n + 1): # 최단 거리를 출력
         print("INFINITY")
     else: # 도달할 수 있다면
         print(distance[i])
+
 
 
 
